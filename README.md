@@ -1,6 +1,7 @@
 # OpenLibrary Dashboard
 
-[Link to app](http://alexbatistaarantes.github.io/openlibrary-dashboard)
+<a href="http://alexbatistaarantes.github.io/openlibrary-dashboard" target="_blank"> Go to app </a>
+
 
 ## TODO
 - WordClouds
