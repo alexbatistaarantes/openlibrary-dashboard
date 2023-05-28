@@ -1,0 +1,27 @@
+body{
+    width: 60%;
+    margin: auto;
+}
+
+@media (max-width: 1700px) {
+    body{
+        width: 90%;
+    }
+}
+
+div#dashboard > div {
+    display: inline-block;
+
+    padding: 5px;
+    margin: 5px;
+
+    text-align: center;
+    border: 1px solid black;
+}
+
+table, th, tr, td {
+    margin: auto;
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+}

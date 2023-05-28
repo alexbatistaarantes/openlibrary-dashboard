@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>OpenLibrary Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>OpenLibrary Dashboard</h1>
+        <a href="https://github.com/alexbatistaarantes/openlibrary-dashboard">Source code</a>
+        <hr>
+    </header>
+    
+    <main>
+
+        <div id="tutorial">
+            <p>Export your <a href="https://openlibrary.org/account/import">reading log</a> and upload the <i>.csv</i> file below.</p>
+        </div>
+
+        <div id="form">
+            <label for="reading-log">Upload your reading log file</label>
+            <input type="file" name="reading-log" id="reading-log" accept=".csv">
+
+            <button id="create-dashboard-button">Create dashboard</button>
+        </div>
+        
+        <hr>
+
+        <div id="dashboard"></div>
+    </main>
+
+    <script src="js/lib/danfojs-bundle.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
